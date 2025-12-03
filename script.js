@@ -25,7 +25,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     const message = document.getElementById('message').value;
     
     if (name && email && message) {
-        alert(`Thank you, ${name}! Your message has been sent.`);
+        alert(`Thank you, ${name}! I'll get back to you within 24 hours.`);
         this.reset();
     }
 });

@@ -98,6 +98,32 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.skills {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.5rem;
+}
+
+.skills li {
+    background: #f8f9fa;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -121,6 +147,16 @@ h2 {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 1rem;
+}
+
+.tech-stack {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #ecf0f1;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #2c3e50;
+    font-weight: 500;
 }
 
 #contact-form {
